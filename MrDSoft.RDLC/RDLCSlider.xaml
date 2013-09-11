@@ -60,7 +60,7 @@
                         Style="{StaticResource FlatButtonStyle}" 
                         Click="FirstButton_Click"
                         >
-                    <Image Source="pack://application:,,,/GCESRecyclage.ResourceLibrary;component/images/move-first.ico" 
+                    <Image Source="/Resources/move-first.ico" 
                             RenderOptions.BitmapScalingMode="HighQuality" 
                             SnapsToDevicePixels="True" 
                             />
@@ -69,7 +69,7 @@
                         Style="{StaticResource FlatButtonStyle}"
                         Click="PreviousButton_Click"
                         >
-                    <Image Source="pack://application:,,,/GCESRecyclage.ResourceLibrary;component/images/move-previous.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    <Image Source="/Resources/move-previous.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
                 </Button>
             </StackPanel>
             <StackPanel HorizontalAlignment="Stretch" Margin="52,0">
@@ -91,13 +91,13 @@
                         Style="{StaticResource FlatButtonStyle}" 
                         Click="NextButton_Click"
                         >
-                    <Image Source="pack://application:,,,/GCESRecyclage.ResourceLibrary;component/images/move-next.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    <Image Source="/Resources/move-next.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
                 </Button>
                 <Button x:Name="LastButton"
                         Style="{StaticResource FlatButtonStyle}" 
                         Click="LastButton_Click"
                         >
-                    <Image Source="pack://application:,,,/GCESRecyclage.ResourceLibrary;component/images/move-last.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    <Image Source="/Resources/move-last.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
                 </Button>
             </StackPanel>
         </Grid>

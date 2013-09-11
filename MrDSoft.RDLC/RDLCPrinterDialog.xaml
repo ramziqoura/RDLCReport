@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="GCESRecyclage.Reports.RDLCPrinterDialog"
         xmlns:loc="clr-namespace:GCESRecyclage.Core.Localization;assembly=GCESRecyclage.Core"
-         Height="458" Width="403.188" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False" Background="WhiteSmoke" Icon="pack://application:,,,/GCESRecyclage.ResourceLibrary;component/images/Logo.ico">
+         Height="458" Width="403.188" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False" Background="WhiteSmoke" Icon="/Resources/Logo.ico">
     <Window.Resources>        
         <!-- Flat Button Style -->
         <Color x:Key="DefaultColor" A="255" R="240" G ="240" B="240"/>
@@ -80,14 +80,14 @@
 
         <Button x:Name="cmdOK" Margin="0,0,110,10" Height="40" Click="OK_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="98" IsDefault="True">
             <StackPanel Orientation="Horizontal">
-                <Image Source="pack://application:,,,/GCESRecyclage.ResourceLibrary;component/images/ok-apply.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <Image Source="/Resources/ok-apply.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
                 <Label VerticalAlignment="Center" Content="Print"/>
             </StackPanel>         
         </Button>
 
         <Button x:Name="cmdAnnuler" Margin="0,0,10,10" Click="Annuler_Click" HorizontalAlignment="Right" Width="95" Height="40" VerticalAlignment="Bottom" IsCancel="True">
             <StackPanel Orientation="Horizontal">
-                <Image Margin="0,0,10,0" Source="pack://application:,,,/GCESRecyclage.ResourceLibrary;component/images/System-Delete.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <Image Margin="0,0,10,0" Source="/Resources/System-Delete.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
                 <ContentControl VerticalAlignment="Center" Content="Close"/>
             </StackPanel>
         </Button>
@@ -133,7 +133,7 @@
                 <TextBox x:Name="LastPage" KeyDown="LastPage_KeyDown" TextWrapping="Wrap" Text="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" MaxLength="2" LostFocus="LastPage_LostFocus" Height="32" VerticalAlignment="Top" HorizontalAlignment="Left" Width="32"  />
             </StackPanel>
             <ToggleButton x:Name="cmdAllPageButton" Margin="108,31,0,0" Click="cmdAllPageButton_Click" IsChecked="True" HorizontalAlignment="Left" Width="53" Height="40" VerticalAlignment="Top">
-                <Image Source="pack://application:,,,/GCESRecyclage.ResourceLibrary;component/images/AllPage.ico" Height="30" Width="30" Stretch="Uniform" ToolTip="All Page" RenderOptions.BitmapScalingMode="HighQuality"/>
+                <Image Source="/Resources/AllPage.ico" Height="30" Width="30" Stretch="Uniform" ToolTip="All Page" RenderOptions.BitmapScalingMode="HighQuality"/>
             </ToggleButton>
         </Grid>
     </Grid>

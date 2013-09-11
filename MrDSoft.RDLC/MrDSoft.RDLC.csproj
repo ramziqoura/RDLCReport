@@ -64,6 +64,10 @@
       <SubType>Designer</SubType>
     </None>
     <Compile Include="enumeration.cs" />
+    <Compile Include="Localization\LocImageExtention.cs" />
+    <Compile Include="Localization\LocManager.cs" />
+    <Compile Include="Localization\LocResourceExtension.cs" />
+    <Compile Include="Localization\LocStringExtension.cs" />
     <Compile Include="RDLCPrinter.cs" />
     <Compile Include="RDLCPrinterDialog.xaml.cs">
       <DependentUpon>RDLCPrinterDialog.xaml</DependentUpon>
