@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
 using System.Globalization;
-using GCESRecyclage.Core.MethodExtension;
+using DSoft.MethodExtension;
 using System.ComponentModel;
 
 
-namespace GCESRecyclage.Core.Converter
+namespace DSoft.Converter
 {
     /// <summary>
     /// Arrondir un nombre avec une quantité paramétrable de digits après la virgule.

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 using System.Windows.Controls;
 
-namespace GCESRecyclage.Core.MethodExtension
+namespace DSoft.MethodExtension
 {
     public static class ImageExtention
     {

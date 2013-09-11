@@ -7,7 +7,7 @@ using System.Windows.Data;
 using System.Windows;
 using System.Globalization;
 
-namespace GCESRecyclage.Core.Converter
+namespace DSoft.Converter
 {
     /// <summary>
     /// Convertir une string en dollars

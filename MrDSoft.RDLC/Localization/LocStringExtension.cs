@@ -2,7 +2,7 @@
 using System.Resources;
 using System.Windows.Markup;
 
-namespace GCESRecyclage.Core.Localization
+namespace DSoft.Localization
 {
     [MarkupExtensionReturnType(typeof(string))]
     public class LocStringExtension : LocResourceExtension

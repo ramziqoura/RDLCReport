@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows;
 
-namespace GCESRecyclage.Core.Converter
+namespace DSoft.Converter
 {
     public class RectConverter : IMultiValueConverter
     {

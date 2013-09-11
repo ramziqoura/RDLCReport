@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDLCDemo", "RDLCDemo\RDLCDemo.csproj", "{D81CA664-CBF9-4EB7-9E63-203A8B47850B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrDSoft.RDLC", "MrDSoft.RDLC\MrDSoft.RDLC.csproj", "{5578EECF-3252-44EF-897A-C991153EF2AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSoft.RDLC", "MrDSoft.RDLC\DSoft.RDLC.csproj", "{5578EECF-3252-44EF-897A-C991153EF2AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

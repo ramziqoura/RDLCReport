@@ -60,7 +60,7 @@
                         Style="{StaticResource FlatButtonStyle}" 
                         Click="FirstButton_Click"
                         >
-                    <Image Source="/Resources/move-first.ico" 
+                    <Image Source="pack://application:,,,/DSoft.RDLC;component/Resources/move-first.ico" 
                             RenderOptions.BitmapScalingMode="HighQuality" 
                             SnapsToDevicePixels="True" 
                             />
@@ -69,7 +69,7 @@
                         Style="{StaticResource FlatButtonStyle}"
                         Click="PreviousButton_Click"
                         >
-                    <Image Source="/Resources/move-previous.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    <Image Source="pack://application:,,,/DSoft.RDLC;component/Resources/move-previous.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
                 </Button>
             </StackPanel>
             <StackPanel HorizontalAlignment="Stretch" Margin="52,0">
@@ -91,13 +91,13 @@
                         Style="{StaticResource FlatButtonStyle}" 
                         Click="NextButton_Click"
                         >
-                    <Image Source="/Resources/move-next.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    <Image Source="pack://application:,,,/DSoft.RDLC;component/Resources/move-next.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
                 </Button>
                 <Button x:Name="LastButton"
                         Style="{StaticResource FlatButtonStyle}" 
                         Click="LastButton_Click"
                         >
-                    <Image Source="/Resources/move-last.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    <Image Source="pack://application:,,,/DSoft.RDLC;component/Resources/move-last.ico" RenderOptions.BitmapScalingMode="HighQuality"/>
                 </Button>
             </StackPanel>
         </Grid>

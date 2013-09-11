@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace GCESRecyclage.Core.MethodExtension
+namespace DSoft.MethodExtension
 {
     public static class StringExtension
     {

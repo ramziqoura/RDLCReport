@@ -4,11 +4,11 @@ using System.Windows.Interop;
 using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using GCESRecyclage.Core.MethodExtension;
+using DSoft.MethodExtension;
 using System.Windows.Controls;
 
 
-namespace GCESRecyclage.Core.Localization
+namespace DSoft.Localization
 {
     [MarkupExtensionReturnType(typeof(ImageSource))]
     public class LocImageExtension : LocResourceExtension

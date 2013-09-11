@@ -2,7 +2,7 @@
 using System.Windows.Media;
 using System.Windows.Data;
 
-namespace GCESRecyclage.Core.Converter
+namespace DSoft.Converter
 {
     public class ValueToForegroundColorConverter: IValueConverter
     {

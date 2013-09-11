@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
-namespace GCESRecyclage.Core.MethodExtension
+namespace DSoft.MethodExtension
 {
     public static class BitmapExtention
     {

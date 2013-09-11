@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Markup;
 
-namespace GCESRecyclage.Core.Localization
+namespace DSoft.Localization
 {
     [MarkupExtensionReturnType(typeof(object))]
     public abstract class LocResourceExtension : MarkupExtension

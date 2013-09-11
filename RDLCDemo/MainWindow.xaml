@@ -1,8 +1,11 @@
-﻿<Window x:Class="RDLCDemo.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        xmlns:Reports="clr-namespace:GCESRecyclage.Reports;assembly=DSoft.RDLC" x:Class="RDLCDemo.MainWindow"
+        Title="MainWindow" Height="490" Width="725">
     <Grid>
-        
+
+        <Reports:RDLCReportViewer Margin="10,20,10,10" Width="Auto" Height="Auto"/>
+
     </Grid>
 </Window>

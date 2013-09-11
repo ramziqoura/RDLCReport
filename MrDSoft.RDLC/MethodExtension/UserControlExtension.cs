@@ -7,7 +7,7 @@ using System.Windows.Input;
 using System.Windows.Controls;
 using System.Windows;
 
-namespace GCESRecyclage.Core.MethodExtension
+namespace DSoft.MethodExtension
 {
     public static class UserControlExtension
     {

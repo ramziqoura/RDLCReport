@@ -18,9 +18,9 @@ using Microsoft.Reporting.WinForms;
 using GCESRecyclage.Reports;
 using System.IO;
 using GCESRecyclage;
-using GCESRecyclage.Core;
-using GCESRecyclage.Core.MethodExtension;
-using GCESRecyclage.Core.Localization;
+using DSoft;
+using DSoft.MethodExtension;
+using DSoft.Localization;
 using DSoft.RDLCReport;
 
 namespace GCESRecyclage.Reports
@@ -124,13 +124,13 @@ namespace GCESRecyclage.Reports
             if (_currentPrinter.IsNotAvailable == false)
             {
                 lblImprimanteStatus.Content = LocManager.ResourceManager.GetString("ReadyString");
-                ImgSource = @"/Resources/Button-Blank-Green.ico";
+                ImgSource = @"pack://application:,,,/DSoft.RDLC;component/Resources/Button-Blank-Green.ico";
 
             }
             else
             {
                 lblImprimanteStatus.Content = LocManager.ResourceManager.GetString("OfflineString");
-                ImgSource = @"/Resources/Button-Blank-Red.ico";
+                ImgSource = @"pack://application:,,,/DSoft.RDLC;component/Resources/Button-Blank-Red.ico";
 
             }
             ReadyImage.Source = new BitmapImage(new Uri(ImgSource));
@@ -155,12 +155,12 @@ namespace GCESRecyclage.Reports
                 //lblImprimanteStatus.Content = "Prêt";
                 _printer.PrinterSettings.PrinterName = _currentPrinter.FullName;
                 lblEmplacementImprimante.Content = _currentPrinter.QueuePort.Name;
-                ImgSource = @"/Resources/Button-Blank-Green.ico";
+                ImgSource = @"pack://application:,,,/DSoft.RDLC;component/Resources/Button-Blank-Green.ico";
             }
             else
             {
                 lblImprimanteStatus.Content = LocManager.ResourceManager.GetString("OfflineString");
-                ImgSource = @"/Resources/Button-Blank-Red.ico";
+                ImgSource = @"pack://application:,,,/DSoft.RDLC;component/Resources/Button-Blank-Red.ico";
             }
 
             ReadyImage.Source = new BitmapImage(new Uri(ImgSource));

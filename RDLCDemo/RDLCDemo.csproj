@@ -94,9 +94,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MrDSoft.RDLC\MrDSoft.RDLC.csproj">
+    <ProjectReference Include="..\MrDSoft.RDLC\DSoft.RDLC.csproj">
       <Project>{5578eecf-3252-44ef-897a-c991153ef2ae}</Project>
-      <Name>MrDSoft.RDLC</Name>
+      <Name>DSoft.RDLC</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

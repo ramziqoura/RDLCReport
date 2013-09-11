@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Resources;
 using System.Threading;
 
-namespace GCESRecyclage.Core.Localization
+namespace DSoft.Localization
 {
     public class LocManager
     {

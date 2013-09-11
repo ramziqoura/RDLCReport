@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 
-namespace GCESRecyclage.Core.MethodExtension
+namespace DSoft.MethodExtension
 {
     public static class ButtonExtention
     {
