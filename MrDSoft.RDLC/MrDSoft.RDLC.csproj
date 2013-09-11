@@ -63,11 +63,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </None>
+    <Compile Include="Converter\CurrencyConverter.cs" />
+    <Compile Include="Converter\DoubleRoundConverter.cs" />
+    <Compile Include="Converter\RectConverter.cs" />
+    <Compile Include="Converter\ValueToForegroundColorConverter.cs" />
     <Compile Include="enumeration.cs" />
     <Compile Include="Localization\LocImageExtention.cs" />
     <Compile Include="Localization\LocManager.cs" />
     <Compile Include="Localization\LocResourceExtension.cs" />
     <Compile Include="Localization\LocStringExtension.cs" />
+    <Compile Include="MethodExtension\BitmapExtention.cs" />
+    <Compile Include="MethodExtension\ButtonExtention.cs" />
+    <Compile Include="MethodExtension\DateTimeExtention.cs" />
+    <Compile Include="MethodExtension\DoubleExtension.cs" />
+    <Compile Include="MethodExtension\ImageExtention.cs" />
+    <Compile Include="MethodExtension\KeyEventExtension.cs" />
+    <Compile Include="MethodExtension\StringExtension.cs" />
+    <Compile Include="MethodExtension\UserControlExtension.cs" />
     <Compile Include="RDLCPrinter.cs" />
     <Compile Include="RDLCPrinterDialog.xaml.cs">
       <DependentUpon>RDLCPrinterDialog.xaml</DependentUpon>
