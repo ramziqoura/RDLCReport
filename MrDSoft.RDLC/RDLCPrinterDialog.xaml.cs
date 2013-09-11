@@ -21,6 +21,7 @@ using GCESRecyclage;
 using GCESRecyclage.Core;
 using GCESRecyclage.Core.MethodExtension;
 using GCESRecyclage.Core.Localization;
+using DSoft.RDLCReport;
 
 namespace GCESRecyclage.Reports
 {
