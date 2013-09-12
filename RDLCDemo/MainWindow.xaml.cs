@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using DSoft;
+
 namespace RDLCDemo
 {
     /// <summary>
@@ -23,6 +25,11 @@ namespace RDLCDemo
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            RDLCPrinter rdlc = new RDLCPrinter();
         }
     }
 }

@@ -15,15 +15,13 @@ using System.Drawing;
 using System.Printing;
 using System.Drawing.Printing;
 using Microsoft.Reporting.WinForms;
-using GCESRecyclage.Reports;
 using System.IO;
-using GCESRecyclage;
 using DSoft;
 using DSoft.MethodExtension;
 using DSoft.Localization;
 using DSoft.RDLCReport;
 
-namespace GCESRecyclage.Reports
+namespace DSoft.RDLC
 {
     /// <summary>
     /// Interaction logic for RDLCPrinterDialog.xaml

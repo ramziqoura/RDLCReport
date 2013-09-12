@@ -1,7 +1,7 @@
 ﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        x:Class="GCESRecyclage.Reports.RDLCPrinterDialog"        
+        x:Class="DSoft.RDLC.RDLCPrinterDialog"        
          Height="458" Width="403.188" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False" Background="WhiteSmoke" Icon="pack://application:,,,/DSoft.RDLC;component/Resources/Logo.ico">
     <Window.Resources>        
         <!-- Flat Button Style -->

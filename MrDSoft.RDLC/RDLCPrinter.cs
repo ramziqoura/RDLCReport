@@ -11,7 +11,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Windows.Media.Imaging;
 
-namespace DSoft.RDLCReport
+namespace DSoft
 {
     /// <summary>
     /// Cette classe permet d'imprimer directement un fichier RDLC en lui fournissant une source de donnée

@@ -10,7 +10,7 @@ using System;
 using DSoft.RDLCReport;
 
 
-namespace GCESRecyclage.Reports
+namespace DSoft.RDLC
 {
     /// <summary>
     /// Logique d'interaction pour RDLCPreviewControl.xaml
